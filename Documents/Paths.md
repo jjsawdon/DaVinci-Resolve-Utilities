@@ -18,56 +18,90 @@ Scripts will not work in the Mac App Store version of Resolve.
 
 ### All Users
 
-macOS:
+* macOS: `/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts`
 
-`/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts`
+* Windows: `%PROGRAMDATA%\Blackmagic Design\DaVinci Resolve\Fusion\Scripts`
 
-Windows:
-
-`%PROGRAMDATA%\Blackmagic Design\DaVinci Resolve\Fusion\Scripts`
-
-Linux:
-`/opt/resolve/Fusion/Scripts`  (or `/home/resolve/Fusion/Scripts/` depending on installation)
+* Linux: `/opt/resolve/Fusion/Scripts`  (or `/home/resolve/Fusion/Scripts/` depending on installation)
 
 ### Specific Users
 
-macOS:
+* macOS: `/Users/UserName/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts`
 
-`/Users/UserName/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts`
+* Windows: `%APPDATA%\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts`
 
-Windows:
-
-`%APPDATA%\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts`
-
-Linux:
-`$HOME/.local/share/DaVinciResolve/Fusion/Scripts`
+* Linux: `$HOME/.local/share/DaVinciResolve/Fusion/Scripts`
 
 ## Macro Paths
+
+### General Macros
+
+#### Fusion Page in Resolve
+
+* macOS: `Macintosh HD/Users/username/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Macros/`
+
+* Windows: `C:\Users\username\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Macros`
+
+* Linux: `home/username/.local/share/DaVinciResolve/Fusion/Macros`
+
+#### Fusion Studio (Standalone)
+
+* macOS: `Macintosh HD/Users/username/Library/Application Support/Blackmagic Design/Fusion/Macros/`
+
+* Windows: `C:\Users\username\AppData\Roaming\Blackmagic Design\Fusion\Macros`
+
+* Linux: `home/username/.fusion/BlackmagicDesign/Fusion/Macros`
+
+### Titles for the Edit Page
+
+* macOS: `Macintosh HD/Users/username/Library/Application Support/Blackmagic Design/ DaVinci Resolve/Fusion/Templates/Edit/Titles`
+
+* Windows: `C:\Users\username\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Templates\Edit\Titles`
+
+* Linux: `home/username/.local/share/DaVinciResolve/Fusion/Templates/Edit/Titles`
+
+### Transitions for the Edit Page
+
+* macOS: `Macintosh HD/Users/username/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Templates/Edit/Transitions`
+
+* Windows: `C:\Users\username\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Templates\Edit\Transitions`
+
+* Linux: `home/username/.local/share/DaVinciResolve/Fusion/Templates/Edit/Transitions`
+
+### Generators for the Edit Page
+
+* macOS: `Macintosh HD/Users/username/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Templates/Edit/Generators`
+
+* Windows: `C:\Users\username\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Templates\Edit\Generators`
+
+* Linux: `home/username/.local/share/DaVinciResolve/Fusion/Templates/Edit/Generators`
 
 ## System Paths
 
 These paths are meant as reference for sysadmins or for use in shared environments. If you're not a system administrator or using Resolve on multiple systems in a shared environment, proceed with caution.
 
+### LUTs
+
+Note: in Resolve 17 and later, you can add custom LUT directories in System Preferences.
+
+* macOS (from App Store): `~/Library/Containers/DaVinci Resolve/Data/Library/Application Support/LUT`
+
+* macOS (from BMD): `/Library/Application Support/Blackmagic Design/DaVinci Resolve/LUT/`
+
+* Windows: `C:\ProgramData\Blackmagic Design\DaVinci Resolve\Support\LUT\`
+
+* Linux: `/opt/resolve/LUT`
+
 ### dblist.conf
 
 dblist.conf is a config file that populates the list of databases (Project Libraries) in the Project Manager on a given system.
 
-***macOS***
+* macOS Free (from App Store): `~/Library/Containers/com.blackmagic-design.DaVinciResolveLite/Data/Library/Preferences/dblist.conf`
 
-**App Store**
+* macOS Studio (from App Store): `~/Library/Containers/com.blackmagic-design.DaVinciResolve/Data/Library/Preferences/dblist.conf`
 
-`~/Library/Containers/com.blackmagic-design.DaVinciResolveLite/Data/Library/Preferences/dblist.conf`
+* macOS (from Blackmagic Design): `~/Library/Preferences/Blackmagic Design/DaVinci Resolve/dblist.conf`
 
-`~/Library/Containers/com.blackmagic-design.DaVinciResolve/Data/Library/Preferences/dblist.conf`
+* Windows: `C:\Users\UserName\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Preferences\dblist.conf`
 
-**From BMD**
-
-`~/Library/Preferences/Blackmagic Design/DaVinci Resolve/dblist.conf`
-
-***Windows***
-
-`C:\Users\UserName\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Preferences\dblist.conf`
-
-***Linux***
-
-`~/.local/share/DaVinciResolve/configs/.dblist`
+* Linux: `~/.local/share/DaVinciResolve/configs/.dblist`

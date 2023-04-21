@@ -34,6 +34,34 @@ To run this externally, make sure Resolve is running, and run `python3 yt_chapte
 * Currently only pulls blue markers
 * Does not filter for duration between markers to meet minimum of 10 seconds.
 
+### NoCache4All
+
+***Install Instructions***
+
+Make sure you have the Python API set up properly before use. See the included [Python API Setup File](Documents/Python_API_Setup.md) for more information.
+
+**macOS**
+
+Copy `Utility/NoCache4All.py` to `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Utility/`
+
+**Windows**
+
+Copy `Utility\NoCache4All.py` to `%APPDATA%\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Utility`
+
+**Linux**
+
+Copy `Utility/NoCache4All.py` to `$HOME/.local/share/DaVinciResolve/Fusion/Scripts/Utility`
+
+***Usage***
+
+From Workspace>Scripts (or Workspace>Scripts>Utility), select "NoCache4All" to disable background caching and automatic caching of transitions, composites, and Fusion effects for **all** projects in the current folder in the project manager. (Can be run from the project manager
+
+To run this externally, make sure Resolve is running, and run `python3 no_cache_4_all_external.py` in a terminal/command prompt.
+
+***Known Issues***
+
+* Currently only disables background caching and doesn't actually delete cache or change `Playback>Render Cache` settings.
+
 ## Documents
 
 A set of documents detailing paths, settings, and advanced workflows
