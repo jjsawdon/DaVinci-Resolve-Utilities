@@ -62,6 +62,26 @@ To run this externally, make sure Resolve is running, and run `python3 no_cache_
 
 * Currently only disables background caching and doesn't actually delete cache or change `Playback>Render Cache` settings.
 
+### Keyboard Elements Folder
+
+***Install Instructions***
+
+**macOS**
+
+Copy `Utility/Keyboard Elements/` to `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Utility/`
+
+**Windows**
+
+Copy `Utility\Keyboard Elements/` to `%APPDATA%\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Utility`
+
+**Linux**
+
+Copy `Utility/Keyboard Elements/` to `$HOME/.local/share/DaVinciResolve/Fusion/Scripts/Utility`
+
+***Usage***
+
+These are little tools for things that aren't necessarily mappable to keyboard shortcuts - like going up a folder in the project manager.
+
 ## Documents
 
 A set of documents detailing paths, settings, and advanced workflows

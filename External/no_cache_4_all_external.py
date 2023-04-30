@@ -1,6 +1,6 @@
 #!/bin/env python
 ## IMPORTS ##
-import DaVinciResolveScript as dvr
+import DaVinciResolveScript as bmd
 from datetime import datetime
 
 # Set Basic Resolve Settings
