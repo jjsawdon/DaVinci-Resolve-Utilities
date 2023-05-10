@@ -5,6 +5,28 @@
 
 ## Scripts
 
+### Unlink All Proxies
+
+***Install Instructions***
+
+Make sure you have the Python API set up properly before use. See the included [Python API Setup File](Documents/Python_API_Setup.md) for more information.
+
+**macOS**
+
+Copy `Edit/Unlink Proxies.py` to `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit/`
+
+**Windows**
+
+Copy `Edit\Unlink Proxies.py` to `%APPDATA%\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Edit`
+
+**Linux**
+
+Copy `Edit/Unlink Proxies.py` to `$HOME/.local/share/DaVinciResolve/Fusion/Scripts/Edit`
+
+***Usage***
+
+From Workspace>Scripts (or Workspace>Scripts>Edit), select "Unlink Proxies" to unlink proxies for all video elements in the project.
+
 ### YouTube Chapter Markers
 
 ***Install Instructions***
@@ -61,6 +83,28 @@ To run this externally, make sure Resolve is running, and run `python3 no_cache_
 ***Known Issues***
 
 * Currently only disables background caching and doesn't actually delete cache or change `Playback>Render Cache` settings.
+
+### ProjTemplate
+
+***Install Instructions***
+
+Make sure you have the Python API set up properly before use. See the included [Python API Setup File](Documents/Python_API_Setup.md) for more information.
+
+**macOS**
+
+Copy `Utility/ProjTemplate.py` to `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Utility/`
+
+**Windows**
+
+Copy `Utility\ProjTemplate.py` to `%APPDATA%\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Utility`
+
+**Linux**
+
+Copy `Utility/ProjTemplate.py` to `$HOME/.local/share/DaVinciResolve/Fusion/Scripts/Utility`
+
+***Usage***
+
+From Workspace>Scripts (or Workspace>Scripts>Utility), select "ProjTemplate" to generate a template project with common settings based on the database name - i.e. an episodic template if the database name ends with `_s##`
 
 ### Keyboard Elements Folder
 

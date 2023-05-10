@@ -5,3 +5,6 @@ External/.DS_Store
 .DS_Store
 Macros
 Internal/Utility/Keyboard Elements/MakeCompoundClip_withName.py
+Internal/Color
+Internal/Utility/ClipNameServer.py
+External/clip_name_client.py

@@ -1,5 +1,15 @@
 # Changelog
 
+## 20230509
+
+### Unlink All Proxies
+
+* Added Unlink All Proxies
+
+### README
+
+* Added ProjTemplate information
+
 ## 20230430
 
 ### NoCache4All
