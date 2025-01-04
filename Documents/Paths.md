@@ -105,3 +105,15 @@ dblist.conf is a config file that populates the list of databases (Project Libra
 * Windows: `C:\Users\UserName\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Preferences\dblist.conf`
 
 * Linux: `~/.local/share/DaVinciResolve/configs/.dblist`
+
+### Fusion Studio OFX BlockList
+
+FusionOFX.blocklist will block OFX plugins from loading in Fusion Studio. It's just a path to the ofx.bundle, like this:
+
+`/Library/OFX/Plugins/FilmboxLite.ofx.bundle`
+
+* macOS (only available from Blackmagic Design): `~/Library/Application Support/Blackmagic Design/Fusion/Profiles/Default/FusionOFX.blocklist`
+
+* Windows: `C:\Users\UserName\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Profiles\Default`
+
+* Linux: `~/.local/share/DaVinciResolve/Fusion/Profiles/Default/`
