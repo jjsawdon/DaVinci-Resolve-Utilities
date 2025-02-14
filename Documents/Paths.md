@@ -114,6 +114,30 @@ FusionOFX.blocklist will block OFX plugins from loading in Fusion Studio. It's j
 
 * macOS (only available from Blackmagic Design): `~/Library/Application Support/Blackmagic Design/Fusion/Profiles/Default/FusionOFX.blocklist`
 
-* Windows: `C:\Users\UserName\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Profiles\Default`
+* Windows: `C:\Users\UserName\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Profiles\Default\FusionOFX.blocklist`
 
-* Linux: `~/.local/share/DaVinciResolve/Fusion/Profiles/Default/`
+* Linux: `~/.local/share/DaVinciResolve/Fusion/Profiles/Default/FusionOFX.blocklist`
+
+### Config Files
+
+These config files control system preferences for Resolve. Mostly useful for scaling issues or accessing through the API. Proceed with ***extreme*** caution!
+
+#### config.dat
+
+config.dat has Advanced Preferences and System Preferences - except internet accounts.
+
+* macOS (from Blackmagic Design): `~/Library/Preferences/Blackmagic Design/DaVinci Resolve`
+
+* Windows: `C:\Users\UserName\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Preferences`
+
+* Linux: `~/.local/share/DaVinciResolve/configs/`
+
+#### config.user.xml
+
+config.xml has User Preferences.
+
+* macOS (from Blackmagic Design): `~/Library/Preferences/Blackmagic Design/DaVinci Resolve`
+
+* Windows: `C:\Users\UserName\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Preferences`
+
+* Linux: `~/.local/share/DaVinciResolve/configs/`
